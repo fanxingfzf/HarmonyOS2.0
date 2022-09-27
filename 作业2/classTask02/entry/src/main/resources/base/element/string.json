@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "page01",
+      "value": "first page"
+    },
+    {
+      "name": "btn1",
+      "value": "torch me"
+    },
+    {
+      "name": "secondpageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "secondpageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SecondPageAbility",
+      "value": "entry_SecondPageAbility"
+    }
+  ]
+}

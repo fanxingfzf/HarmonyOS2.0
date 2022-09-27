@@ -1,0 +1,41 @@
+login as: gec
+gec@192.168.26.128's password:
+
+
+gec@ubuntu:~$ cd myproject/
+gec@ubuntu:~/myproject$ hpm dist
+
+
+步骤：
+
+①：先打开vm虚拟机
+
+②：打开RaiDrive
+
+③：电脑vscode上面编辑代码
+
+④：打开MobaXterm_Personal_22.1
+烧录步骤：
+这里面操作指令：
+1：连接到自己的主机；
+2：登录名：gec
+     密码：liuyang7303
+
+cd myproject/
+hpm dist
+
+⑤：打开HiBurn
+1：com setting里面设置波特率最高：921600
+2：点击选择映射盘Z:\home\gec\myproject\out\BearPi-HM_Nano下面文件Hi3861_wifiiot_app_allinone.bin
+     并且点击Auto burn、点击Connect、小熊派点击Reset开始烧录
+
+3：打开MobaXterm_Personal_22.1
+新建串口连接，地址选linux的地址
+
+（注意：怎么找到Linux地址：
+	cd myproject/
+	gec@ubuntu:~/myproject$ ifconfig
+）
+
+
+
